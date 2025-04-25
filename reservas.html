@@ -1,0 +1,167 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservas - Restaurante Delicioso</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Aquí puedes vincular tu archivo de estilo CSS -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 30px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+        .table-container {
+            margin-top: 30px;
+            overflow-x: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 12px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #333;
+            color: white;
+        }
+        td {
+            background-color: #f9f9f9;
+        }
+        .images-container {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+        }
+        .images-container img {
+            width: 30%;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Restaurante Delicioso</h1>
+        <p>Consulta la disponibilidad de nuestras mesas y realiza tu reserva</p>
+    </header>
+
+    <div class="container">
+        <h2>Disponibilidad de Mesas</h2>
+
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Mesas</th>
+                        <th>Capacidad</th>
+                        <th>Fecha</th>
+                        <th>Hora</th>
+                        <th>Estado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Mesas para 2</td>
+                        <td>2 Personas</td>
+                        <td>25/04/2025</td>
+                        <td>12:00 - 15:00</td>
+                        <td>Disponible</td>
+                    </tr>
+                    <tr>
+                        <td>Mesas para 4</td>
+                        <td>4 Personas</td>
+                        <td>25/04/2025</td>
+                        <td>15:30 - 18:30</td>
+                        <td>Reservada</td>
+                    </tr>
+                    <tr>
+                        <td>Mesas para 6</td>
+                        <td>6 Personas</td>
+                        <td>25/04/2025</td>
+                        <td>19:00 - 22:00</td>
+                        <td>Disponible</td>
+                    </tr>
+                    <tr>
+                        <td>Mesas para 2</td>
+                        <td>2 Personas</td>
+                        <td>26/04/2025</td>
+                        <td>12:00 - 15:00</td>
+                        <td>Disponible</td>
+                    </tr>
+                    <tr>
+                        <td>Mesas para 4</td>
+                        <td>4 Personas</td>
+                        <td>26/04/2025</td>
+                        <td>15:30 - 18:30</td>
+                        <td>Reservada</td>
+                    </tr>
+                    <tr>
+                        <td>Mesas para 6</td>
+                        <td>6 Personas</td>
+                        <td>26/04/2025</td>
+                        <td>19:00 - 22:00</td>
+                        <td>Disponible</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="images-container">
+            <div>
+                <img src="imagen-plato1.jpg" alt="Plato de la casa">
+                <p>Plato de la Casa</p>
+            </div>
+            <div>
+                <img src="imagen-plato2.jpg" alt="Postre delicioso">
+                <p>Postre Delicioso</p>
+            </div>
+            <div>
+                <img src="imagen-restaurante.jpg" alt="Ambiente acogedor">
+                <p>Ambiente Acogedor</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Restaurante Delicioso - Todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>
+
